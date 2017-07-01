@@ -3,6 +3,9 @@
     android:versionCode="1"
     android:versionName="0.0.1">
 
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.MEDIA_CONTENT_CONTROL"/>
+
     <uses-sdk android:minSdkVersion="16" android:targetSdkVersion="21" />
 
     <!-- The INTERNET permission is required for development. Specifically,
